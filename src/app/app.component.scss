@@ -1,0 +1,55 @@
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+.hightlight1 {
+    color: #7415b8;
+    background-color: #97d92c;
+    text-decoration: underline;
+}
+
+.hightlight2 {
+    color: #7415b8;
+    background-color: #5d861c;
+    text-decoration: underline;
+}
+
+.hightlight3 {
+    color: #7415b8;
+    background-color: #24340a;
+    text-decoration: underline;
+}
+
+.hightlight4 {
+    color: #7415b8;
+    background-color: #90a076;
+    text-decoration: underline;
+}
+
+.tooltip {
+    position: relative;
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  
+ 
